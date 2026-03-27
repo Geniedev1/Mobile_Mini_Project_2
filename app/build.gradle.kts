@@ -43,7 +43,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
     // ── Room Database ──────────────────────────────────────────
     val roomVersion = "2.6.1"
     implementation("androidx.room:room-runtime:$roomVersion")
