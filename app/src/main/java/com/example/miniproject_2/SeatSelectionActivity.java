@@ -150,15 +150,15 @@ public class SeatSelectionActivity extends BaseActivity {
 
             if (isBooked) {
                 tvSeatLabel.setBackgroundResource(R.drawable.bg_seat_booked);
-                tvSeatLabel.setTextColor(getColor(android.R.color.white));
-                tvSeatLabel.setAlpha(0.85f);
+                tvSeatLabel.setTextColor(getColor(R.color.seatTextBooked));
+                tvSeatLabel.setAlpha(0.5f); // Ẩn mờ vé đi
             } else if (isSelected) {
                 tvSeatLabel.setBackgroundResource(R.drawable.bg_seat_selected);
-                tvSeatLabel.setTextColor(getColor(android.R.color.white));
+                tvSeatLabel.setTextColor(getColor(R.color.seatTextSelected));
                 tvSeatLabel.setAlpha(1f);
             } else {
                 tvSeatLabel.setBackgroundResource(R.drawable.bg_seat_available);
-                tvSeatLabel.setTextColor(getColor(android.R.color.black));
+                tvSeatLabel.setTextColor(getColor(R.color.seatTextAvailable));
                 tvSeatLabel.setAlpha(1f);
             }
 

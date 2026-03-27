@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    app:cardBackgroundColor="#1E1E1E"
+    app:cardBackgroundColor="@color/cardColor"
     app:cardCornerRadius="12dp"
     app:cardElevation="4dp">
 
@@ -33,7 +33,7 @@
                 android:ellipsize="end"
                 android:maxLines="1"
                 android:text="Movie Title"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/textColorPrimary"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:text="120 min"
-                android:textColor="#888888"
+                android:textColor="@color/textColorSecondary"
                 android:textSize="12sp" />
 
             <Button
@@ -52,8 +52,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
-                android:text="BOOK NOW"
-                android:textColor="#FFD700" />
+                android:text="ĐẶT VÉ"
+                android:textColor="@color/colorAccent" />
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
